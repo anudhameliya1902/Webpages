@@ -1,0 +1,1347 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d9d8d4  ;
+}
+header{
+    height: 80px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: white ;
+}
+.logo{
+    float: left;
+    font-size: 35px;
+    letter-spacing: 10px;
+    margin-left: 35px;
+    line-height: 80px;
+}
+.serch{
+    float: left;
+    font-size: 35px;
+    margin-left: 10%;
+    line-height: 80px; 
+}
+.serch input{
+    height: 35px;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #d9d8d4  ;
+}
+.menu{
+    float: right;
+    font-size: 25px;
+    line-height: 80px;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: black;
+}
+.nav{
+    height: 45px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #d9d8d4  ;
+}
+.nav a{
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 20px;
+    line-height: 45px;
+    padding-left: 20px;
+    color: black;
+}
+.home{
+    height: 550px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(Img/bg.png);
+    background-size: cover;
+    position: absolute;
+}
+.home h1{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 50px;
+    font-size: 40px;
+    color: red;
+    font-family: initial;
+}
+.home p{
+    font-size: 70px;
+    margin-left: 15%;
+    margin-top: 25px;
+    font-weight: bolder;
+}
+.home h2{
+    font-size: 20px;
+    margin-left: 15%;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    height: 45px;
+    width: 150px;
+    margin-left: 15%;
+    border-radius: 35px;
+    margin-top: 35px;
+    background-color: violet;
+    border: none;
+}
+/* section start 2 */
+
+.sec2{
+    height: 550px;
+    width: 100%;
+    margin-top: 580px;
+    /* border: 1px solid red; */
+}
+.sec2 .i1{
+    margin-top: 50px;
+    height: 450px;
+    width: 45%;
+    /* border: 1px solid black; */
+    margin-left: 4%;
+    float: left;
+    background-image: url(Img/I1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sec2 .i1 h5{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top:40px;
+    padding-left: 70px;
+}
+.sec2 .i1 h1{
+    color: white;
+    font-size: 60px;
+    /* font-weight: lighter; */
+    padding-top:20px;
+    padding-left: 70px;
+}
+.sec2 .i1 h3{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top:10px;
+    padding-left: 70px;
+}
+.sec2 .i1 button{
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 25px;
+    margin-left: 70px;
+    border-radius: 30px;
+    border: none;
+}
+.sec2 .i2 h5{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top:40px;
+    padding-left: 70px;
+}
+.sec2 .i2 h1{
+    color: white;
+    font-size: 60px;
+    /* font-weight: lighter; */
+    padding-top:20px;
+    padding-left: 70px;
+}
+.sec2 .i2 h3{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top:10px;
+    padding-left: 70px;
+}
+.sec2 .i2 button{
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 25px;
+    margin-left: 70px;
+    border-radius: 30px;
+    border: none;
+}
+
+.sec2 .i2{
+    margin-top: 50px;
+    height: 450px;
+    width: 45%;
+    /* border: 1px solid black; */
+    margin-right: 4%;
+    float: right;
+    background-image: url(Img/I2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* <!-- Section No 2 end --> */
+
+/* <!-- Section No 3 Start --> */
+.sec3{
+    height: 180px;
+    width: 92%;
+    /* border: 1px solid black; */
+    background-color: white;
+margin-left: 4%;
+}
+.sec3 h1{
+    display: inline-block;
+    margin-left:130px;
+    margin-top: 70px;
+}
+/* <!-- Section No 3 end --> */
+
+/* <!-- Section No 4 Start --> */
+.sec4{
+    height: 600px;
+    width: 92%;
+    margin-left: 4%;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+.sec4 .best{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: block;
+}
+.sec4 .best h1{
+    line-height: 100px;
+    font-size: 35px;
+    display: block;
+}
+.sec41{
+    margin-top: 30px;
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.sec41 .bes1{
+    height:220px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 2%;
+    background-image: url(Img/b1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec41 .bes2{
+    height:220px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(Img/b2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.sec41 .bes3{
+    height:220px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(Img/b3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.sec41 .bes4{
+    height:220px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(Img/b4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sec41 .bes5{
+    height:220px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(Img/b5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec41 .bes6{
+    height:220px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(Img/b6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec41 button{
+    height: 25px;
+    width: 60px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.sec42 .bes11{
+    height:130px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 2%;
+}
+.sec42 .bes11 p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sec42 .bes11 h3{
+    float: left;
+    font-size: 25px;
+    color: blue;
+    text-decoration: line-through;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.sec42 .bes11 h2{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.sec42 .bes22{
+    height:130px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+
+}
+.sec42 .bes22 p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sec42 .bes22 h3{
+    float: left;
+    font-size: 25px;
+    color: black;
+    /* text-decoration: line-through; */
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.sec42 .bes33{
+    height:130px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    /* margin-left: 2%; */
+}
+.sec42 .bes33 p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sec42 .bes33 h3{
+    float: left;
+    font-size: 25px;
+    color: blue;
+    text-decoration: line-through;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.sec42 .bes33 h2{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.sec42 .bes44 h2{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.sec42 .bes44{
+    height:130px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    /* margin-left: 2%; */
+}
+.sec42 .bes44 p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sec42 .bes44 h3{
+    float: left;
+    font-size: 25px;
+    color:black;
+    /* text-decoration: line-though; */
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.sec42 .bes55{
+    height:130px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    /* margin-left: 2%; */
+}
+.sec42 .bes55 p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sec42 .bes55 h3{
+    float: left;
+    font-size: 25px;
+    color: blue;
+    text-decoration: line-through;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.sec42 .bes55 h2{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.sec42 .bes66{
+    height:130px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    /* margin-left: 2%; */
+}
+.sec42 .bes66 p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sec42 .bes66 h3{
+    float: left;
+    font-size: 25px;
+    color: black;
+    /* text-decoration: line-through; */
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.sec4 .view{
+    height: 40px;
+    width: 250px;
+    background-color: skyblue;
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+font-family: 'Times New Roman', Times, serif;
+}
+/* <!-- Section No 4 End --> */
+
+/* <!-- Section No 5 Start --> */
+.sec5{
+    height: 650px;
+    width: 92%;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    background-color: white;
+    margin-left: 4%;
+}
+.sec5 .shop{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.sec5 .shop h1{
+    line-height: 100px;
+    font-size: 35px;
+}
+.sec5 .shop1{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.sec5 .shop11{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.sec5 .shop1 .s1{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    background-image: url(Img/s1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sec5 .shop1 .s2{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    background-image: url(Img/s2.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sec5 .shop1 .s3{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    background-image: url(Img/s3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sec5 .shop1 .s4{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    background-image: url(Img/s4.png);
+    background-position: center;
+    background-size: cover;
+}
+.sec5 .shop1 .s5{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    background-image: url(Img/s5.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sec5 .shop11 .s11{
+    height: 50px;
+    width: 200px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
+}
+.sec5 .shop2{
+    margin-top: 30px;
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.sec5 .shop2 .s1{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    background-image: url(Img/s6.png);
+    background-position: center;
+    background-size: cover;
+}
+.sec5 .shop2 .s2{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    background-image: url(Img/s7.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sec5 .shop2 .s3{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    background-image: url(Img/s8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sec5 .shop2 .s4{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    background-image: url(Img/s9.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sec5 .shop2 .s5{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    background-image: url(Img/s10.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* <!-- Section No 5 End --> */
+
+/* <!-- Section No 6 Start --> */
+.sec6{
+    height: 400px;
+    width: 92%;
+    margin-left: 4%;
+    background-color: white;
+    margin-top: 40px;
+}
+ .sec6 .A{
+    height: 400px;
+    background-image: url(Img/a.png);
+    width: 65%;
+    background-position: center;
+    background-size: cover;
+    float: left;
+ }
+.sec6 .B{
+    height: 400px;
+    width: 35%;
+    float: right;
+ }
+ .sec6 .B p{
+    font-size: 35px;    
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 45px;
+ }
+
+ .sec6 .B h1{
+    font-size: 90px;    
+    font-weight: bold;
+    margin-top: 25pxpx;
+    margin-left: 45px;
+ }
+ .sec6 .B h2{
+    font-size: 40px;    
+    font-weight: bold;
+    margin-top: 20pxpx;
+    margin-left: 45px;
+ }
+ .sec6 .B h3{
+    font-size: 16px;    
+    font-weight: normal;
+    margin-top: 30px;
+    margin-left: 45px;
+ }
+ .sec6 .B button{
+    font-size: 30px;    
+    font-weight:bolder;
+    margin-top: 30px;
+    margin-left: 45px;
+    height: 40px;
+    width: 130px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: skyblue;
+    border-radius: 30px;
+    border: none;
+ }
+/* <!-- Section No 6 End --> */
+
+/* <!-- Section No 7 Start --> */
+
+ .sec7{
+    margin-top: 30px;
+    height: 600px;
+    width: 92%;
+    margin-left: 4%;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+.sec7 .sale{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: block;
+}
+.sec7 .sale h1{
+    line-height: 100px;
+    font-size: 35px;
+    display: block;
+}
+
+.sec71{
+    margin-top: 30px;
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.sec71 .sale1{
+    height:220px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 2%;
+    background-image: url(Img/c1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec71 .sale2{
+    height:220px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(Img/c2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.sec71 .sale3{
+    height:220px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(Img/c3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.sec71 .sale4{
+    height:220px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(Img/c4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sec71 .sale5{
+    height:220px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(Img/c5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec71 .sale6{
+    height:220px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(Img/c6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sec71 button{
+    height: 25px;
+    width: 60px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.sec72 .bes11{
+    height:130px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 2%;
+}
+.sec72 .bes11 p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sec72 .bes11 h3{
+    float: left;
+    font-size: 25px;
+    color: blue;
+    text-decoration: line-through;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.sec72 .bes11 h2{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.sec72 .bes22{
+    height:130px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+
+}
+.sec72 .bes22 p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sec72 .bes22 h3{
+    float: left;
+    font-size: 25px;
+    color: blue;
+    text-decoration: line-through;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.sec72 .bes22 h2{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.sec72 .bes33{
+    height:130px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    /* margin-left: 2%; */
+}
+.sec72 .bes33 p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sec72 .bes33 h3{
+    float: left;
+    font-size: 25px;
+    color: blue;
+    text-decoration: line-through;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.sec72 .bes33 h2{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.sec72 .bes44 h2{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.sec72 .bes44{
+    height:130px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    /* margin-left: 2%; */
+}
+.sec72 .bes44 p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sec72 .bes44 h3{
+    float: left;
+    font-size: 25px;
+    color:blue;
+    text-decoration: line-through;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.sec72 .bes44 h2{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.sec72 .bes55{
+    height:130px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    /* margin-left: 2%; */
+}
+.sec72 .bes55 p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sec72 .bes55 h3{
+    float: left;
+    font-size: 25px;
+    color: blue;
+    text-decoration: line-through;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.sec72 .bes55 h2{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.sec72 .bes66{
+    height:130px;
+    width: 16%;
+    /* border: 1px solid black; */
+    float: left;
+    /* margin-left: 2%; */
+}
+.sec72 .bes66 p{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sec72 .bes66 h3{
+    float: left;
+    font-size: 25px;
+    color: blue;
+    
+    text-decoration: line-through;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.sec72 .bes66 h2{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.sec7 .view{
+    height: 40px;
+    width: 250px;
+    background-color: skyblue;
+    font-size: 25px;
+    border: none;
+    border-radius: 30px;
+font-family: 'Times New Roman', Times, serif;
+}
+/* <!-- Section No 7 End --> */
+
+/* <!-- Section No 8 Start --> */
+
+.sec8{
+    height: 400px;
+    width: 92%;
+    margin-left: 4%;
+    background-color: white;
+    margin-top: 40px;
+}
+ .sec8 .A{
+    height: 400px;
+    background-image: url(Img/img1.png);
+    width: 55%;
+    background-position: center;
+    background-size: cover;
+    float: right;
+ }
+.sec8 .B{
+    height: 400px;
+    width: 45%;
+    float: left;
+ }
+ .sec8 .B p{
+    font-size: 35px;    
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 45px;
+    color: red;
+ }
+ .sec8 .B .p1{
+    font-size: 30px;    
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 45px;
+    color:black;
+ }
+ .sec8 .B h1{
+    font-size: 80px;    
+    font-weight: bold;
+    margin-top: 25pxpx;
+    margin-left: 45px;
+    color: blueviolet;
+ }
+ .sec8 .B h2{
+    font-size: 30px;    
+    font-weight: bold;
+    margin-top: 20pxpx;
+    margin-left: 45px;
+ }
+ .sec8 .B h3{
+    font-size: 16px;    
+    font-weight: normal;
+    margin-top: 30px;
+    margin-left: 45px;
+ }
+ .sec8 .B button{
+    font-size: 30px;    
+    font-weight:bolder;
+    margin-top: 30px;
+    margin-left: 45px;
+    height: 40px;
+    width: 130px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: skyblue;
+    border-radius: 30px;
+    border: none;
+ }
+ /* <!-- Section No 8 End --> */
+
+ /* <!-- Section No 9 Start --> */
+
+ .sec9{
+    margin-top: 30px;
+    height: 150px;
+    width: 92%;
+    margin-left: 4%;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+.sec9 .brand{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: block;
+}
+.sec9 .brand h1{
+    line-height: 100px;
+    font-size: 35px;
+    display: block;
+}
+.sec10{
+    height: 200px;
+    width: 92%;
+    margin-left: 4%;
+    background-color: white;   
+}
+.sec10 .brand1{
+    /* margin-top: 20px; */
+    height: 150px;
+    width: 100%;
+    /* background-color: white; */
+    /* border: 1px solid black;    */
+}
+.sec10 .brand1 .bra1{
+    height: 150px;
+    width:15%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 12.5%;
+    background-image: url(Img/bra1.png);
+    background-position: center;
+    background-size: cover;
+}
+.sec10 .brand1 .bra2{
+    height: 150px;
+    width:15%;
+    border: 1px solid black;
+    float: left;
+    background-image: url(Img/bra2.png);
+    background-position: center;
+    background-size: cover;
+}
+.sec10 .brand1 .bra3{
+    height: 150px;
+    width:15%;
+    border: 1px solid black;
+    float: left;
+    background-image: url(Img/bra3.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sec10 .brand1 .bra4{
+    height: 150px;
+    width:15%;
+    border: 1px solid black;
+    float: left;
+    background-image: url(Img/bra4.png);
+    background-position: center;
+    background-size: cover;
+}
+.sec10 .brand1 .bra5{
+    height: 150px;
+    width:15%;
+    border: 1px solid black;
+    float: left;
+    background-image: url(Img/bra5.png);
+    background-position: center;
+    background-size: cover;
+}
+.sec11{
+    margin-top: 30px;
+    height: 250px;
+    width: 92%;
+    margin-left: 4%;
+    /* border: 1px solid black; */
+    background-color:skyblue;
+}
+.sec11 h1{
+    margin-top: 30px;
+    font-size: 30px;
+    color: white;
+
+}
+.sec11 p{
+    margin-top: 30px;
+    font-size: 16px;
+    color: white;
+}
+.sec11 h3{
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    margin-left: 150px;
+}
+.sec11 .email{
+    margin-top: 10px;
+    margin-left: 150px;
+    font-size: 20px;
+    height: 40px;
+    width: 350px;
+    border: none;
+    padding-left: 15px;  
+    border-radius: 30px;
+}
+.sec11 .suc{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: black;
+    color: white;
+    /* padding-left: 15px;   */
+    border-radius: 30px;
+}
+
+/* <!-- Section No 12 Start --> */
+
+.sec12{
+    height: 400px;
+    width: 92%;
+    margin-left: 4%;
+    background-color: white;
+    margin-top: 40px;
+}
+ .sec12 .A{
+    height: 400px;
+    background-image: url(Img/help.jpg);
+    width: 55%;
+    background-position: center;
+    background-size: cover;
+    float: right;
+ }
+.sec12 .B{
+    height: 400px;
+    width: 45%;
+    float: left;
+    background-color: black;
+ }
+ .sec12 .B p{
+    font-size: 45px;    
+    /* font-weight: bold; */
+    margin-top: 35px;
+    margin-left: 45px;
+    color: white;
+ }
+ .sec12 .B h1{
+    font-weight: 100;
+    font-size: 16px;    
+    /* font-weight: bold; */
+    margin-top: 75px;
+    margin-left: 45px;
+    color:white;
+    margin-top: 50px;
+ }
+ .sec12 .B h3{
+    font-size: 16px;    
+    font-weight: normal;
+    margin-top: 30px;
+    margin-left: 45px;
+ }
+ .sec12 .B button{
+    font-size: 20px;    
+    /* font-weight:bolder; */
+    margin-top: 50px;
+    margin-left: 45px;
+    height: 40px;
+    width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blue;
+    border-radius: 30px;
+    border: none;
+    color: aliceblue;
+ } 
+ /* <!-- Section No 12 End --> */
+
+ /* <!-- Section No 13 Start --> */
+
+ footer{
+        margin-top: 15px;
+        height: 600px;
+        width: 100%;
+        /* border: 1px solid   black; */
+        background-color: white;
+ }
+ footer .store{
+    height: 400px;
+    width: 25%;
+    /* border: 1px solid black; */
+    float: left;
+ }
+ footer .store h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+ }
+ footer .store p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+ }
+  footer .store .icon{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+  footer .store .icon a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+  }
+ footer .support{
+    height: 400px;
+    width: 25%;
+    /* border: 1px solid black; */
+    float: left;
+ }
+ footer .support h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+ }
+ footer .support ul li{
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 80px;
+ }
+ footer .support ul a{
+    text-decoration: none;
+    color: black;
+ }
+ 
+ footer .Shop{
+    height: 400px;
+    width: 25%;
+    /* border: 1px solid black; */
+    float: left;
+ }
+ footer .Shop h1{
+    margin-top: 50px;
+    margin-left: 65px;
+    font-size: 20px;
+ }
+ footer .Shop ul li{
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 50px;
+ }
+ footer .Shop ul a{
+    text-decoration: none;
+    color: black;
+ }
+
+ footer .policy{
+    height: 400px;
+    width: 25%;
+    /* border: 1px solid black; */
+    float: left;
+ }
+ footer .policy h1{
+    margin-top: 50px;
+    margin-left: 65px;
+    font-size: 20px;
+ }
+ footer .policy ul li{
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 50px;
+ }
+ footer .policy ul a{
+    text-decoration: none;
+    color: black;
+ }
+
+footer .end{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+    float: left;
+}
+footer .end h5{
+    text-align:center ;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+footer .end .ic{
+    margin-top: 50px;
+    margin-left: 12%;
+}
+footer .end .ic img{
+    margin-left: 60px;
+}
+.last{
+    height: 50px;
+    width: 100%;
+}
+.last p{
+    text-align: center;
+    margin-top: 15px;
+}
